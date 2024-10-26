@@ -5,3 +5,15 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     color: red;
 }
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes the main take the full viewport height */
+}
+
+/* Optional: If you want to style the logo */
+.logo {
+    max-width: 100%;
+    height: auto;
+}
